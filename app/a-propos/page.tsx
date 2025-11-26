@@ -12,9 +12,10 @@ export default function APropos() {
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Notre Histoire</h2>
             <p className="text-gray-700 leading-relaxed">
-              Le Petit Collo est né d'une passion pour la gastronomie et le partage. Fondé avec l'ambition de créer 
-              un lieu où la cuisine authentique rencontre l'élégance, notre restaurant vous accueille dans une 
-              atmosphère chaleureuse et raffinée.
+              Le Petit Collo, situé au cœur de Collobrières, opère sous une nouvelle direction depuis 2025. 
+              Après la reprise du fonds de commerce, la société SAS Pepinillo, dirigée par Cyril Pichot, 
+              a repris les rênes de ce restaurant de restauration traditionnelle avec l'ambition de perpétuer 
+              l'excellence culinaire dans une atmosphère chaleureuse et raffinée.
             </p>
           </section>
 

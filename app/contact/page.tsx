@@ -19,22 +19,20 @@ export default function Contact() {
               <div className="space-y-4 text-gray-700">
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Adresse</h3>
-                  <p>123 Rue de la Gastronomie<br />75000 Paris, France</p>
+                  <p>3 Cours Mirabeau<br />83610 Collobrières, France</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Téléphone</h3>
-                  <p>+33 1 23 45 67 89</p>
+                  <p>[À compléter]</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                  <p>contact@lepetitcollo.fr</p>
+                  <p>[À compléter]</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Horaires</h3>
                   <p>
-                    Mardi - Samedi: 12h00 - 14h30, 19h00 - 22h30<br />
-                    Dimanche: 12h00 - 15h00<br />
-                    Lundi: Fermé
+                    [À compléter]
                   </p>
                 </div>
               </div>

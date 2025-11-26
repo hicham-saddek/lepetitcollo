@@ -12,14 +12,20 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Éditeur du site</h2>
             <p>
-              Le site web lepetitcollo.fr est édité par Le Petit Collo, restaurant situé au 123 Rue de la Gastronomie, 75000 Paris, France.
+              Le site web est édité par la société <strong>SAS Pepinillo</strong>, exploitant le restaurant <strong>Le Petit Collo</strong>.
+            </p>
+            <p className="mt-2">
+              <strong>Raison sociale:</strong> SAS Pepinillo<br />
+              <strong>SIREN:</strong> 991683087<br />
+              <strong>Activité:</strong> Restauration traditionnelle (56.10A)<br />
+              <strong>Adresse:</strong> 3 Cours Mirabeau, 83610 Collobrières, France
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Directeur de publication</h2>
             <p>
-              Le directeur de la publication est le propriétaire du restaurant Le Petit Collo.
+              Le directeur de la publication est <strong>Cyril Pichot</strong>, Président de la SAS Pepinillo.
             </p>
           </section>
 
@@ -47,7 +53,7 @@ export default function MentionsLegales() {
               vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition aux données personnelles vous concernant.
             </p>
             <p className="mt-2">
-              Pour exercer ce droit, vous pouvez nous contacter à l'adresse suivante: contact@lepetitcollo.fr
+              Pour exercer ce droit, vous pouvez nous contacter à l'adresse suivante: [À compléter]
             </p>
           </section>
 
@@ -62,8 +68,10 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact</h2>
             <p>
               Pour toute question concernant ces mentions légales, vous pouvez nous contacter:<br />
-              Email: contact@lepetitcollo.fr<br />
-              Téléphone: +33 1 23 45 67 89
+              <strong>SAS Pepinillo</strong><br />
+              3 Cours Mirabeau<br />
+              83610 Collobrières, France<br />
+              SIREN: 991683087
             </p>
           </section>
         </div>

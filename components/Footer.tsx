@@ -8,7 +8,9 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-serif text-white mb-4">Le Petit Collo</h3>
             <p className="text-sm">
-              Un restaurant authentique au cœur de la ville, offrant une cuisine raffinée et une atmosphère chaleureuse.
+              Restaurant de restauration traditionnelle<br />
+              3 Cours Mirabeau<br />
+              83610 Collobrières, France
             </p>
           </div>
           <div>
@@ -53,7 +55,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Le Petit Collo. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} SAS Pepinillo - Le Petit Collo. Tous droits réservés.</p>
+          <p className="mt-1 text-xs text-gray-500">SIREN: 991683087</p>
         </div>
       </div>
     </footer>
