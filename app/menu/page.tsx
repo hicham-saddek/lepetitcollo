@@ -12,92 +12,91 @@ export default function Menu() {
         </div>
 
         <div className="space-y-12">
-          {/* Entrées */}
+          {/* Plats */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 border-b border-gray-200 pb-2">
-              Entrées
+              Plats
             </h2>
             <div className="space-y-4">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Salade de saison</h3>
-                  <p className="text-gray-600 text-sm">Légumes frais du marché, vinaigrette maison</p>
+                  <h3 className="font-semibold text-gray-900">Magret de canette</h3>
                 </div>
-                <span className="text-gray-900 font-medium">12€</span>
+                <span className="text-gray-900 font-medium">18€</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Soupe du jour</h3>
-                  <p className="text-gray-600 text-sm">Préparée quotidiennement avec des produits frais</p>
+                  <h3 className="font-semibold text-gray-900">Burger frites maison</h3>
+                  <p className="text-gray-600 text-sm">Bœuf de l'Étubrac</p>
                 </div>
-                <span className="text-gray-900 font-medium">9€</span>
+                <span className="text-gray-900 font-medium">17€</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Terrine de campagne</h3>
-                  <p className="text-gray-600 text-sm">Accompagnée de cornichons et pain de campagne</p>
+                  <h3 className="font-semibold text-gray-900">Raviolis cèpes truffes</h3>
                 </div>
-                <span className="text-gray-900 font-medium">11€</span>
+                <span className="text-gray-900 font-medium">16€</span>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-semibold text-gray-900">Pièces du boucher</h3>
+                  <p className="text-gray-600 text-sm">Cœur de rumsteak de l'Étubrac</p>
+                </div>
+                <span className="text-gray-900 font-medium">21€</span>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-semibold text-gray-900">Planche de charcuterie</h3>
+                </div>
+                <span className="text-gray-900 font-medium">15€</span>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-semibold text-gray-900">Plat du jour</h3>
+                </div>
+                <span className="text-gray-900 font-medium">18€</span>
               </div>
             </div>
           </section>
 
-          {/* Plats Principaux */}
+          {/* Boissons */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6 border-b border-gray-200 pb-2">
-              Plats Principaux
+              Boissons
             </h2>
             <div className="space-y-4">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Filet de saumon</h3>
-                  <p className="text-gray-600 text-sm">Sauce citronnée, légumes de saison, riz pilaf</p>
+                  <h3 className="font-semibold text-gray-900">Vin rouge de Collobrières</h3>
+                  <p className="text-gray-600 text-sm">L'Étrellan</p>
                 </div>
-                <span className="text-gray-900 font-medium">24€</span>
+                <span className="text-gray-900 font-medium">—</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Magret de canard</h3>
-                  <p className="text-gray-600 text-sm">Sauce au miel, pommes de terre rôties</p>
+                  <h3 className="font-semibold text-gray-900">Vin domaine de myrtes</h3>
+                  <p className="text-gray-600 text-sm">Verre / Bouteille</p>
                 </div>
-                <span className="text-gray-900 font-medium">26€</span>
+                <span className="text-gray-900 font-medium">4€ / 28€</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Risotto aux champignons</h3>
-                  <p className="text-gray-600 text-sm">Champignons de saison, parmesan, truffe</p>
+                  <h3 className="font-semibold text-gray-900">Bière pression</h3>
                 </div>
-                <span className="text-gray-900 font-medium">22€</span>
-              </div>
-            </div>
-          </section>
-
-          {/* Desserts */}
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6 border-b border-gray-200 pb-2">
-              Desserts
-            </h2>
-            <div className="space-y-4">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="font-semibold text-gray-900">Tarte tatin</h3>
-                  <p className="text-gray-600 text-sm">Pommes caramélisées, crème fraîche</p>
-                </div>
-                <span className="text-gray-900 font-medium">8€</span>
+                <span className="text-gray-900 font-medium">3,50€</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Mousse au chocolat</h3>
-                  <p className="text-gray-600 text-sm">Chocolat noir, chantilly</p>
+                  <h3 className="font-semibold text-gray-900">Sodas canette</h3>
                 </div>
-                <span className="text-gray-900 font-medium">7€</span>
+                <span className="text-gray-900 font-medium">3,50€</span>
               </div>
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-gray-900">Assiette de fromages</h3>
-                  <p className="text-gray-600 text-sm">Sélection de fromages locaux</p>
+                  <h3 className="font-semibold text-gray-900">Café</h3>
+                  <p className="text-gray-600 text-sm">Plusieurs variations au même prix</p>
                 </div>
-                <span className="text-gray-900 font-medium">10€</span>
+                <span className="text-gray-900 font-medium">3€</span>
               </div>
             </div>
           </section>
