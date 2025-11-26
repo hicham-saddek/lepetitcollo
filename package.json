@@ -10,6 +10,7 @@
     "init-admin": "tsx scripts/init-admin.ts"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
     "bcryptjs": "^3.0.3",
     "better-sqlite3": "^12.4.6",
     "next": "16.0.4",
