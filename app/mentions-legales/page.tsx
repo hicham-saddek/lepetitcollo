@@ -1,6 +1,6 @@
 export default function MentionsLegales() {
   return (
-    <div className="min-h-screen py-12">
+    <div className="min-h-screen py-12 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-serif text-gray-900 mb-4">
