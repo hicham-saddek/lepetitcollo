@@ -30,6 +30,8 @@ export default function LoginPage() {
         return;
       }
 
+      // Reset loading state before redirect
+      setIsLoading(false);
       // Redirect to admin dashboard
       router.push('/admin-petit-collo');
       router.refresh();

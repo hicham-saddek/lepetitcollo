@@ -21,6 +21,7 @@ export default function Sidebar() {
     setIsLoggingOut(true);
     try {
       await fetch('/api/admin/logout', { method: 'POST' });
+      setIsLoggingOut(false);
       router.push('/admin-petit-collo/login');
       router.refresh();
     } catch (error) {
